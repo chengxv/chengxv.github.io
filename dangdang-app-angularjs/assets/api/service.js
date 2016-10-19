@@ -1,5 +1,5 @@
 // 创建一个公用的数据调用服务
-app.factory('commonService',['$scope',function($scope){
+app.factory('commonService',['$http',function($http){
   var service={};
   service.getData=function(type,callBack){
     $http({
