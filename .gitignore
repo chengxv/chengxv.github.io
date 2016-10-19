@@ -1,1 +1,3 @@
 .DS_Store  // 过滤掉不需要提交的
+
+dangdang-app-angularjs/assets/controllers/book_list_controller.js
