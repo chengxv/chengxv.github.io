@@ -3,7 +3,7 @@ app.factory('commonService',['$scope',function($scope){
   var service={};
   service.getData=function(type,callBack){
     $http({
-     url:'../../data/book_'+type+'.json',
+     url:'/dangdang-app-angularjs/data/book_'+type+'.json',
      method:'get'
    }).then(function(res){
      console.log('获取数据成功');
